@@ -42,6 +42,35 @@ body {
     object-fit: cover;
 }
 
+/*Subheader*/
+.subheader{
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: 5px solid grey;
+    padding: 0 20px; 
+    max-width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-weight: 80;
+}
+
+.subheader a {
+    text-decoration: none;
+    color: black;
+    transition: 800ms;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.subheader a:hover{
+    cursor: pointer;
+    color: white;   
+}
+
 /*browse image*/
 .browsebanner{
     text-align: center;
@@ -184,6 +213,7 @@ body {
  li a {
    color: white;
    text-decoration: none;
+   justify-content: left;
  }
  
  .logo .anony {

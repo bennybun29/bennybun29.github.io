@@ -32,7 +32,10 @@
    color: black;
    font-size: 3rem;
    text-align: center;
-   
+   font-family: "PT Serif", serif;
+   font-weight: 900;
+   font-style:normal;
+
 }
 
 .box {
@@ -92,6 +95,36 @@ body {
     text-align: center;
 }
 
+/*Subheader*/
+.subheader{
+   background-color: grey;
+   color: white;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   border-bottom: 5px solid grey;
+   padding: 0 20px; 
+   max-width: 100%;
+   font-family: "Oswald", sans-serif;
+   font-weight: 80;
+}
+
+.subheader a {
+   text-decoration: none;
+   color: black;
+   transition: 800ms;
+   border-radius: 3px;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+}
+
+.subheader a:hover{
+   cursor: pointer;
+   color: white;   
+}
+
+
 .aboutbanner{
     text-align: center;
     margin-top: 2rem;
@@ -99,6 +132,11 @@ body {
     margin-bottom: 10px;
 }
 
+.aboutimg {
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 0;
+}
 .paragraph {
    text-align: center;
    margin: 5%;
