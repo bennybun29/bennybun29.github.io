@@ -52,7 +52,7 @@ body {
  .buttons .writeButton{
     display: block;
     text-decoration: none;
-    padding: 5px 120px 5px 100px;
+    padding: 5px 111px;
     background-color: black;
     color: white;
     font-family: "Oswald", sans-serif;
@@ -75,7 +75,7 @@ body {
  .buttons .browseNotes {
     display: block;
     text-decoration: none;
-    padding: 5px 95px 5px 100px;
+    padding: 5px 100px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: "Oswald", sans-serif;
@@ -83,8 +83,8 @@ body {
     font-style: normal;
     font-weight: 350;
     font-size: medium;
+    border: 0;
     font-size: 4vh;
-    border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 10px; /* Add margin between buttons */
     transition: 700ms;
@@ -92,7 +92,6 @@ body {
  
  .buttons .browseNotes:hover {
     background-color: grey;
-    border-color: grey;
     color: white;
     box-shadow: 5px 5px rgb(202, 202, 202);
  }
@@ -101,6 +100,9 @@ body {
  }
  
 
+ .space {
+   padding-bottom: 43px;
+ }
  /*footer*/
  footer {
     bottom: 0;
