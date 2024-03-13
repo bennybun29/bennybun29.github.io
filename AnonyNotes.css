@@ -31,6 +31,7 @@ body {
  .container {
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
  }
  
  .img1 img {
@@ -101,67 +102,84 @@ body {
  
 
  .space {
-   padding-bottom: 43px;
+   padding-bottom: 130px;
  }
- /*footer*/
- footer {
-    bottom: 0;
-    left: 0;
-    width: 98.7;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  /*footer*/
+footer {
+   bottom: 0;
+   left: 0;
+   width: auto;
+   max-height: fit-content;
+   background-color: black;
+   color: white;
+   padding: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   border-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 5px;
+}
+
+footer p {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.links {
+  text-align: right;
+  margin-left: auto;
+}
+
+.links h4 {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 3px;
+  padding-bottom: 0;
+}
+
+ul{
+  margin-top: 3px;
+}
+
+li{
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 250;
+  list-style: none;
+}
+
+li a:hover{
+   text-decoration: underline;
  }
- 
- .logo {
-    padding-bottom: 9px;
- }
- .logo .anony {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 350;
-    font-size: large;
- }
- 
- .logo .notes {
-    font-family: "PT Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: large;
- }
- 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center; /* Align the list items center */
- }
- 
- li {
-    display: inline-block; /* Display list items horizontally */
- }
- 
- li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: medium;
-    transition: 800ms;
- }
- 
- li a:hover {
-    background-color: #111;
- }
+
+li a {
+  color: white;
+}
+
+.logo .anony {
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 350;
+   font-size: large;
+}
+
+.logo .notes {
+   font-family: "PT Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: large;
+}
  
  @media screen and (min-width: 768px) {
     .container {
@@ -186,8 +204,9 @@ body {
     }
  }
  
- @media screen and (max-width: 360px) {
-    .footer {
-        margin-right: 0;
-    }
- }
+ @media only screen and (max-width: 600px) {
+   footer {
+       justify-content: center;
+       text-align: center;
+   }
+}  

@@ -123,40 +123,69 @@ body {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*footer*/
-footer {
+ /*footer*/
+ footer {
     bottom: 0;
     left: 0;
-    max-width: 100%;
+    width: auto;
+    max-height: fit-content;
     background-color: black;
     color: white;
-    text-align: center;
     padding: 10px;
- }
-
- footer a{
-    text-decoration: none;
-    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
  }
  
- .logo {
-    padding-bottom: 9px;
+ footer p {
+   text-decoration: none;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 100;
  }
+ 
+ .links {
+   text-align: right;
+   margin-left: auto;
+ }
+ 
+ .links h4 {
+   text-decoration: none;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 400;
+   margin-bottom: 0;
+   margin-top: 3px;
+   padding-bottom: 0;
+ }
+ 
+ ul{
+   margin-top: 3px;
+ }
+ 
+ li{
+   text-decoration: none;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 250;
+   list-style: none;
+ }
+ 
+ li a:hover{
+    text-decoration: underline;
+  }
+ 
+ li a {
+   color: white;
+   text-decoration: none;
+ }
+ 
  .logo .anony {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -170,46 +199,18 @@ footer {
     font-weight: 400;
     font-style: normal;
     font-size: large;
-    margin: 0;
  }
- 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center; /* Align the list items center */
- }
- 
- li {
-    display: inline-block; /* Display list items horizontally */
-    margin: 0;
- }
- 
- li a {
-    display: block;
-    color: white;
-    text-align: center;
+
+ .logo a {
     text-decoration: none;
-    padding: 14px 15px;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: 200;
-    font-size: medium;
-    transition: 800ms;
+    color: white;
  }
- 
- li a:hover {
-    background-color: #111;
- }
-
- @media screen and (max-width: 360px) {
-    .footer {
-        margin-right: 0;
-        width: 95.7%;
+  
+ @media only screen and (max-width: 600px) {
+    footer {
+        justify-content: center;
+        text-align: center;
     }
- }
-
+ }  
+  
  
