@@ -92,13 +92,6 @@ ul a {
     }
 }
 
-#section1 {
-    margin-top: 30px;
-    margin-bottom: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 #section1 img{
     width: 300px;
@@ -216,18 +209,6 @@ ul a {
         font-style: normal;
         font-size: 10px;
     }
-
-    #section2 {
-        margin-top: 90px;
-    }
-    #section2 h1{
-        text-align: center;
-        font-family: "Josefin Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 800;
-        font-style: normal;
-        font-size: small;
-    }
 }
 
 @media only screen and (min-width:720px){
@@ -237,7 +218,7 @@ ul a {
 }
 
 #section2 {
-    margin-top: 90px;
+    margin-top: 200px;
 }
 #section2 h1{
     text-align: center;
@@ -267,6 +248,7 @@ ul a {
 #section2 {
     padding:15px 9%;
     padding-bottom:100px ;
+
 }
 
 #section2 .box-container{
