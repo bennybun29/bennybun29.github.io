@@ -296,6 +296,8 @@ ul a {
 
 #profile img {
     margin-top: 4rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px grey;
 }
 
 .section__text {
